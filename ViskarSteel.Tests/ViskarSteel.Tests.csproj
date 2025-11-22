@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="JunitXml.TestLogger" Version="7.0.2" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="3.0.0" />
     <PackageReference Include="MSTest.TestFramework" Version="3.0.0" />
