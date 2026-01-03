@@ -21,7 +21,7 @@ namespace ViskarSteel.Tests
         }
 
         [TestMethod]
-        public void TestCase1()
+        public void TestCase3()
         {
             var calc = new Calculator();
             int result = calc.Add(5, 5); // This call triggers the coverage!
