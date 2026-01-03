@@ -19,5 +19,13 @@ namespace ViskarSteel.Tests
             string msg = "Hello";
             Assert.IsTrue(msg.Contains("Hell"));
         }
+
+        [TestMethod]
+        public void TestCase1()
+        {
+            var calc = new Calculator();
+            int result = calc.Add(5, 5); // This call triggers the coverage!
+            Assert.AreEqual(10, result);
+        }
     }
 }
